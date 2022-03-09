@@ -36,7 +36,7 @@ JVM은 OS에서 할당받은 메모리 영역(Runtime Data Area)을 3개로 구�
 
 **＊힙 영역에는 객체가 생성이 된다!**
 
-![Untitled](notion://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4264bac8-9062-4000-80eb-9fb244fc0336%2FUntitled.png?table=block&id=81a08dfe-7a46-4662-97a8-26714162a040&spaceId=f8b64aaf-f68e-4e0e-85a7-4c37187b996f&width=1890&userId=45442e96-273d-43be-aa7c-ddbb643ab64f&cache=v2)
+![image](https://user-images.githubusercontent.com/95729738/157372493-ebd875ca-70ff-470e-8955-67c8811c0822.png)
 
 **③ JVM 스택**
 
@@ -125,7 +125,8 @@ String name1 = "신용권";
 String name2 = "신용권";
 ```
 
-![Untitled](CHAPTER%205%20%2081a08/Untitled%201.png)
+![image](https://user-images.githubusercontent.com/95729738/157372568-a367da94-bf17-42f9-9425-7f873c5df615.png)
+
 
 **※ new 연산자를 이용한 String 객체 생성**
 
@@ -144,7 +145,7 @@ name1 == name2;   // false 반환
 name1.equals(name2); // true 반환
 ```
 
-![Untitled](CHAPTER%205%20%2081a08/Untitled%202.png)
+![image](https://user-images.githubusercontent.com/95729738/157372587-befc9276-9666-49cb-9549-af77aacf5fce.png)
 
 ## 5.6 배열 타입
 
@@ -200,7 +201,7 @@ intArray = new int[5];
 
 : int 값 5개를 저장할 수 있는 배 열 객체를 Heap 영역에 만들겠다라는 의미
 
-![Untitled](CHAPTER%205%20%2081a08/Untitled%203.png)
+![image](https://user-images.githubusercontent.com/95729738/157372606-fff06f05-fdf4-4087-b366-fe92c19ad1de.png)
 
 ### **배열을 생성만 하고 값을 주지 않으면 해당 타입의 기본값들이 모든 인덱스에 저장된다.**
 
@@ -240,7 +241,7 @@ cmd에서 `java 클래스명` 을 입력하고 실행하면 `main()` 메소드�
 
 (인덱스는 0, 1행 / 0, 1, 2열)
 
-![Untitled](CHAPTER%205%20%2081a08/Untitled%204.png)
+![image](https://user-images.githubusercontent.com/95729738/157372624-106cf40c-1c78-4cff-8c77-4367a53b0a02.png)
 
 만들어지는 원리 : 먼저 크기가 2인 1차원 배열을 만들고 각각의 인덱스에서 크기가 3인 배열을 추가 생성해서 메모리 주소를 참조한다.
 
@@ -365,7 +366,7 @@ for (int score : scores) { // scores의 값들(95, 71, 84, 93, 87)이 순차적�
 
 → 메소드 영역에서 열거 객체를 참조한다.
 
-![Untitled](CHAPTER%205%20%2081a08/Untitled%205.png)
+![image](https://user-images.githubusercontent.com/95729738/157372670-d52a76c7-9230-47db-b744-f9a77b72a294.png)
 
 ---
 
