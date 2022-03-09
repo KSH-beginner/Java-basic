@@ -36,7 +36,7 @@ JVM은 OS에서 할당받은 메모리 영역(Runtime Data Area)을 3개로 구�
 
 **＊힙 영역에는 객체가 생성이 된다!**
 
-![Untitled](CHAPTER%205%20%2081a08/Untitled.png)
+![Untitled](notion://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F4264bac8-9062-4000-80eb-9fb244fc0336%2FUntitled.png?table=block&id=81a08dfe-7a46-4662-97a8-26714162a040&spaceId=f8b64aaf-f68e-4e0e-85a7-4c37187b996f&width=1890&userId=45442e96-273d-43be-aa7c-ddbb643ab64f&cache=v2)
 
 **③ JVM 스택**
 
